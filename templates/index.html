@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit Complaint</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <img src="/static/logo.png" alt="Company Logo" id="logo">
+    <h1>Bridgeport High School Student Complaint Portal</h1>
+  </header>
+
+  <main>
+    <div class="form-container">
+      <h2>Complaint Submission Form</h2>
+      <input type="text" id="searchBox" placeholder="Search by name or ID" />
+      <div id="results"></div>
+
+      <textarea id="messageBox" placeholder="Type your complaint here..."></textarea>
+      <button onclick="submitComplaint()">Submit</button>
+
+      <p id="status"></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>1 Gibson Road, P.O Box 150, Bridgeport P.O, St. Catherine, Jamaica W.I.</p>
+  </footer>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
